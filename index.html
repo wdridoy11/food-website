@@ -10,6 +10,8 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+   <!-- font awesome link -->
+   <script src="https://kit.fontawesome.com/65b4c8277d.js" crossorigin="anonymous"></script>
    <!-- tailwind css -->
    <script src="https://cdn.tailwindcss.com"></script>
    <style>
@@ -20,7 +22,46 @@
 </head>
 
 <body>
+   <!-- header section start -->
+   <header class="py-20 bg-red-50">
+      <div class="container mx-auto px-5 md:px-10 lg:px-16">
+         <div class="grid grid-cols-1 items-center md:grid-cols-2">
+            <div class="order-last md:order-first">
+               <h1 class="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold">Choosing Quality Food</h1>
+               <p class="my-6 text-base text-zinc-600 font-normal w-full lg:w-9/12">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed tenetur fuga non nam esse veniam.
+               </p>
+               <button class="bg-red-500 text-white py-4 px-8 border-0 rounded-full text-lg font-medium
+               hover:bg-black transition duration-150">Read More <i class="fa-solid fa-right-long"></i></button>
+            </div>
+            <div class="order-first md:order-last mb-5">
+               <img src="./images/banner-01.png" alt="banner">
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- header section end -->
    <main>
+      <!-- About us section start -->
+      <section class="py-20">
+         <div class="container mx-auto px-5 md:px-10 lg:px-16">
+            <div class="grid grid-cols-1 items-center md:grid-cols-2 gap-12">
+               <div>
+                  <img class="w-full" src="./images/about-01.jpg" alt="">
+               </div>
+               <div>
+                  <h4 class="text-black text-base font-medium">About Us</h4>
+                  <h1 class="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold">About Us Our<br /> Food</h1>
+                  <p class="my-6 text-base text-zinc-600 font-normal w-full lg:w-1/2">
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed tenetur fuga non nam esse veniam.
+                  </p>
+                  <button class="bg-red-500 text-white py-4 px-8 border-0 rounded-full text-lg font-medium
+               hover:bg-black transition duration-150">Read More <i class="fa-solid fa-right-long"></i></button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- About us section end -->
       <!-- Offer section start -->
       <section class="bg-red-50 py-20">
          <div class="container mx-auto px-5 md:px-10 lg:px-16">
@@ -34,7 +75,7 @@
                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed tenetur fuga non nam esse veniam.
                   </p>
                   <button class="bg-red-500 text-white py-4 px-8 border-0 rounded-lg text-lg font-medium
-                   hover:bg-black transition duration-150">See All Menu</button>
+                   hover:bg-black transition duration-150">See All Menu <i class="fa-solid fa-right-long"></i></button>
                </div>
             </div>
          </div>
@@ -57,7 +98,7 @@
                   <div class="flex justify-between mb-4">
                      <button class="bg-emerald-400 text-white px-3 rounded-lg text-sm">New</button>
                      <a class="bg-yellow-400 py-1 px-2 rounded-md" href="#">
-                        <img class="w-5" src="./images/heart.png" alt="heart">
+                        <i class="fa-regular fa-heart text-white text-xl"></i>
                      </a>
                   </div>
                   <div class="bg-red-50 rounded-lg py-4">
@@ -71,7 +112,7 @@
                      </div>
                      <div>
                         <button class="bg-red-500 py-1 px-2 rounded-md">
-                           <img class="w-5" src="./images/cart.png" alt="">
+                           <i class="fa-solid fa-cart-shopping text-white text-xl"></i>
                         </button>
                      </div>
                   </div>
@@ -83,7 +124,7 @@
                   <div class="flex justify-between mb-4">
                      <button class="bg-emerald-400 text-white px-3 rounded-lg text-sm">New</button>
                      <a class="bg-yellow-400 py-1 px-2 rounded-md" href="#">
-                        <img class="w-5" src="./images/heart.png" alt="heart">
+                        <i class="fa-regular fa-heart text-white text-xl"></i>
                      </a>
                   </div>
                   <div class="bg-red-50 rounded-lg py-4">
@@ -97,7 +138,7 @@
                      </div>
                      <div>
                         <button class="bg-red-500 py-1 px-2 rounded-md">
-                           <img class="w-5" src="./images/cart.png" alt="">
+                           <i class="fa-solid fa-cart-shopping text-white text-xl"></i>
                         </button>
                      </div>
                   </div>
@@ -109,7 +150,7 @@
                   <div class="flex justify-between mb-4">
                      <button class="bg-emerald-400 text-white px-3 rounded-lg text-sm">New</button>
                      <a class="bg-yellow-400 py-1 px-2 rounded-md" href="#">
-                        <img class="w-5" src="./images/heart.png" alt="heart">
+                        <i class="fa-regular fa-heart text-white text-xl"></i>
                      </a>
                   </div>
                   <div class="bg-red-50 rounded-lg py-4">
@@ -123,7 +164,7 @@
                      </div>
                      <div>
                         <button class="bg-red-500 py-1 px-2 rounded-md">
-                           <img class="w-5" src="./images/cart.png" alt="">
+                           <i class="fa-solid fa-cart-shopping text-white text-xl"></i>
                         </button>
                      </div>
                   </div>
@@ -135,7 +176,7 @@
                   <div class="flex justify-between mb-4">
                      <button class="bg-emerald-400 text-white px-3 rounded-lg text-sm">New</button>
                      <a class="bg-yellow-400 py-1 px-2 rounded-md" href="#">
-                        <img class="w-5" src="./images/heart.png" alt="heart">
+                        <i class="fa-regular fa-heart text-white text-xl"></i>
                      </a>
                   </div>
                   <div class="bg-red-50 rounded-lg py-4">
@@ -149,7 +190,7 @@
                      </div>
                      <div>
                         <button class="bg-red-500 py-1 px-2 rounded-md">
-                           <img class="w-5" src="./images/cart.png" alt="">
+                           <i class="fa-solid fa-cart-shopping text-white text-xl"></i>
                         </button>
                      </div>
                   </div>
@@ -161,7 +202,7 @@
                   <div class="flex justify-between mb-4">
                      <button class="bg-emerald-400 text-white px-3 rounded-lg text-sm">New</button>
                      <a class="bg-yellow-400 py-1 px-2 rounded-md" href="#">
-                        <img class="w-5" src="./images/heart.png" alt="heart">
+                        <i class="fa-regular fa-heart text-white text-xl"></i>
                      </a>
                   </div>
                   <div class="bg-red-50 rounded-lg py-4">
@@ -175,7 +216,7 @@
                      </div>
                      <div>
                         <button class="bg-red-500 py-1 px-2 rounded-md">
-                           <img class="w-5" src="./images/cart.png" alt="">
+                           <i class="fa-solid fa-cart-shopping text-white text-xl"></i>
                         </button>
                      </div>
                   </div>
@@ -187,7 +228,7 @@
                   <div class="flex justify-between mb-4">
                      <button class="bg-emerald-400 text-white px-3 rounded-lg text-sm">New</button>
                      <a class="bg-yellow-400 py-1 px-2 rounded-md" href="#">
-                        <img class="w-5" src="./images/heart.png" alt="heart">
+                        <i class="fa-regular fa-heart text-white text-xl"></i>
                      </a>
                   </div>
                   <div class="bg-red-50 rounded-lg py-4">
@@ -201,7 +242,7 @@
                      </div>
                      <div>
                         <button class="bg-red-500 py-1 px-2 rounded-md">
-                           <img class="w-5" src="./images/cart.png" alt="">
+                           <i class="fa-solid fa-cart-shopping text-white text-xl"></i>
                         </button>
                      </div>
                   </div>
@@ -210,7 +251,7 @@
             </div>
             <div class="text-center mt-8">
                <button class="bg-red-500 text-white py-4 px-8 border-0 rounded-lg text-lg font-medium
-                hover:bg-black transition duration-150">See All Menu</button>
+                hover:bg-black transition duration-150">See All Menu <i class="fa-solid fa-right-long"></i></button>
             </div>
          </div>
       </section>
@@ -287,7 +328,7 @@
             </div>
             <div class="text-center mt-8">
                <button class="bg-red-500 text-white py-4 px-8 border-0 rounded-lg text-lg font-medium
-                hover:bg-black transition duration-150">See All Blog</button>
+                hover:bg-black transition duration-150">See All Blog <i class="fa-solid fa-right-long"></i></button>
             </div>
          </div>
       </section>
